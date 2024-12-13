@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi CV Online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="foto-cv.jpg" alt="Foto de perfil" class="perfil">
+    <h1>Thomas A. Anderson</h1>
+    <p>Desarrollador Web | [Front End]</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#experience">Experiencia</a></li>
+      <li><a href="#education">Educación</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <p>Soy un desarrollador web junior apasionado por crear sitios funcionales y atractivos..</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experiencia</h2>
+    <ul>
+      <li><strong>Desarrollador Web Jr.</strong> - TechInnova Solutions (Marzo 2023 - Agosto 2023)</li>
+      <li><strong>Desarrollador Web Jr.</strong> - Alchemax (Octubre 2023 - Noviembre 2024)</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Educación</h2>
+    <ul>
+      <li><strong>Licenciatura en Ciencias de la Computación</strong> - MIT (2018 - 2022)</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
